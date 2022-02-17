@@ -16,7 +16,7 @@ function CountDownTimer(dt, id)
         if (distance < 0) {
 
             clearInterval(timer);
-            document.getElementById(id).innerHTML = '<h6>Happy Birthday Saumya!</h6>';
+            document.getElementById(id).innerHTML = '<br><br>R U Excited <br> <a href="button.html">Damn Yes!!</a>';
 
             return;
         }
@@ -25,11 +25,14 @@ function CountDownTimer(dt, id)
         var minutes = Math.floor((distance % _hour) / _minute);
         var seconds = Math.floor((distance % _minute) / _second);
 
+        
         document.getElementById(id).innerHTML = days + ':';
         document.getElementById(id).innerHTML += hours + ':';
         document.getElementById(id).innerHTML += minutes + ':';
         document.getElementById(id).innerHTML += seconds + '';
+        
     }
 
     timer = setInterval(showRemaining, 1000);
 }
+

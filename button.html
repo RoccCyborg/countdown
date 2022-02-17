@@ -2,64 +2,57 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>baby</title>
-  <link rel="stylesheet" href="./style.css">
-
+  <title>Babu</title>
+  <link rel="stylesheet" href="./styles.css">
   <style>
-  .column 
-    {
-      float: left;
-      width: 8%;
-      height: 87%;
-      padding: 13px;
-    }
-    
-    /* Style the images inside the grid */
-    .column img 
-    {
-      opacity: 0.8; 
-      cursor: pointer;
-      height: 120px;
-      width: 120px; 
-    }
-    
-    .column img:hover 
-    {
-      opacity: 1;
-    }
-    
-    /* Clear floats after the columns */
-    .row:after 
-    {
-      content: "";
-      display: table;
-      clear: both;
-    }
-    /* img 
-    {
-    height: 100px;
-    width: 100px;
-    } */
-    header
-    {
+    .column 
+      {
+        float: left;
+        width: 8%;
+        height: 87%;
+        padding: 13px;
+      }
+      
+      /* Style the images inside the grid */
+      .column img 
+      {
+        opacity: 0.8; 
+        cursor: pointer;
+        height: 120px;
+        width: 120px; 
+      }
+      
+      .column img:hover 
+      {
+        opacity: 1;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after 
+      {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      header
+      {
+        width: 100%;
+        height: 120px;
+        line-height: 120px;
+        margin-top: 0px;
+  
+      }
+      footer
+      {
       width: 100%;
       height: 120px;
-      line-height: 120px;
-      margin-top: 0px;
-
-    }
-    footer
-    {
-    width: 100%;
-    height: 120px;
-    margin-bottom: 20px
-    }
-  
-    </style>
+      margin-bottom: 20px
+      }
+    
+      </style>
 </head>
 <body>
 <!-- partial:index.partial.html -->
-
 <header>
   <div class="row">
     <div class="column">
@@ -125,7 +118,16 @@
   </div><br>
 
 </header>
-<main><div id="countdown" align="center"></div></main>
+<main align="center">
+<div class="circle">
+  <a href ="main.html">
+    <i class="gift">
+      <i class="ribbons"></i>
+    </i>
+  </a>
+</div>
+</main>
+
 <footer>
 
   <div class="row">
@@ -192,8 +194,9 @@
   </div>
 
 </footer>
+
 <!-- partial -->
-  <script  src="./script.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./scripts.js"></script>
 
 </body>
 </html>

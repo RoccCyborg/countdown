@@ -3,6 +3,8 @@
 * {
     padding: 0;
     margin: 0;
+    min-width:auto;
+
 }
 @font-face {
     font-family: 'Roboto', sans-serif;
@@ -12,21 +14,21 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 100px;
+    font-size: 24px;
     background-color: #008686;
-}
-div {
-    font-size: 3.0em;
-    color: #00ffff;
-    width: 100%;
-    height: 100%;
 }
 div {
     font-size: 4.0em;
     color: #00ffff;
     width: 100%;
     height: 100%;
-    margin-top: 150px;
+}
+div {
+    font-size: 5.0em;
+    color: #00ffff;
+    width: 100%;
+    height: 100%;
+    margin-top: auto;
 }
 
 @media only screen and (max-width: 2200px) {
@@ -35,17 +37,18 @@ div {
         color: #00ffff;
         width: 100%;
         height: 100%;
-        margin-top: 150px;
+        margin-top: auto;/*100px*/
     }
 }
 
-@media only screen and (max-width: 1950px) {
+@media only screen and (max-width: 1950px) 
+{
     div {
         font-size: 3.0em;
         color: #00ffff;
         width: 100%;
         height: 100%;
-        margin-top: 200px;
+        margin-top: auto;/*200px*/
     }
 }
 
@@ -55,7 +58,7 @@ div {
         color: #00ffff;
         width: 100%;
         height: 100%;
-        margin-top: 200px;
+        margin-top: auto; /*200px*/
     }
 }
 
@@ -65,7 +68,7 @@ div {
         color: #00ffff;
         width: 100%;
         height: 100%;
-        margin-top: 200px;
+        margin-top: auto;/*200px*/
     }
 }
 
@@ -75,7 +78,7 @@ div {
         color: #00ffff;
         width: 100%;
         height: 100%;
-        margin-top: 250px;
+        margin-top: auto;/*250px*/
     }
 }
 
@@ -85,7 +88,7 @@ div {
         color: #00ffff;
         width: 100%;
         height: 100%;
-        margin-top: 250px;
+        margin-top: auto;/*200px*/
     }
 }
 
@@ -104,6 +107,6 @@ div {
         color: #00ffff;
         width: 100%;
         height: 100%; 
-			overflow-wrap: break-word;
+		overflow-wrap: break-word;
     }
 }
