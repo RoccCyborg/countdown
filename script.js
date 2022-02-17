@@ -1,4 +1,4 @@
-CountDownTimer('11/20/2021 06:0 AM', 'countdown');
+CountDownTimer('02/21/2022 12:0 AM', 'countdown');
 
 function CountDownTimer(dt, id)
 {
